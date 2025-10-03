@@ -13,5 +13,11 @@ namespace PodPeek.Api.Controllers
         {
             return await _kubeService.BuildGraph(namespaceName);
         }
+
+        [HttpGet(Name = "Test")]
+        public string Get()
+        {
+            return "test";
+        }
     }
 }

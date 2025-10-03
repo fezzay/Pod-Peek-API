@@ -2,7 +2,7 @@
 {
     public class Service : KubeObject
     {
-        public string Type { get; set; }
-        public IEnumerable<Port> Ports { get; set; }
+        public string Type { get; set; } = string.Empty;
+        public IEnumerable<Port> Ports { get; set; } = [];
     }
 }

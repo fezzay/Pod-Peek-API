@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PodPeek.Api", "PodPeek.Api\PodPeek.Api.csproj", "{666C2663-700E-4379-A3EE-3BB86126FB67}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PodPeek.Api", "PodPeek.Api\PodPeek.Api.csproj", "{1BF2B52F-2F87-4974-BDD5-DC6F140C1275}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PodPeek.Domain", "PodPeek.Domain\PodPeek.Domain.csproj", "{57CACD30-EE65-4EE1-BD85-C7486AA0BDE8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PodPeek.Domain", "PodPeek.Domain\PodPeek.Domain.csproj", "{1A4B2EDE-32CB-4778-AAF6-F9BF0B657A25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PodPeek.KubeClient", "PodPeek.KubeClient\PodPeek.KubeClient.csproj", "{2A36AE58-EF6E-42D4-9509-A2E5F4D3DE58}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PodPeek.KubeClient", "PodPeek.KubeClient\PodPeek.KubeClient.csproj", "{E96EDD82-BCE5-4D71-9FCB-8898FA6ADCC1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,23 +15,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{666C2663-700E-4379-A3EE-3BB86126FB67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{666C2663-700E-4379-A3EE-3BB86126FB67}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{666C2663-700E-4379-A3EE-3BB86126FB67}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{666C2663-700E-4379-A3EE-3BB86126FB67}.Release|Any CPU.Build.0 = Release|Any CPU
-		{57CACD30-EE65-4EE1-BD85-C7486AA0BDE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{57CACD30-EE65-4EE1-BD85-C7486AA0BDE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{57CACD30-EE65-4EE1-BD85-C7486AA0BDE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{57CACD30-EE65-4EE1-BD85-C7486AA0BDE8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2A36AE58-EF6E-42D4-9509-A2E5F4D3DE58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2A36AE58-EF6E-42D4-9509-A2E5F4D3DE58}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2A36AE58-EF6E-42D4-9509-A2E5F4D3DE58}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2A36AE58-EF6E-42D4-9509-A2E5F4D3DE58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BF2B52F-2F87-4974-BDD5-DC6F140C1275}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BF2B52F-2F87-4974-BDD5-DC6F140C1275}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BF2B52F-2F87-4974-BDD5-DC6F140C1275}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BF2B52F-2F87-4974-BDD5-DC6F140C1275}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A4B2EDE-32CB-4778-AAF6-F9BF0B657A25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A4B2EDE-32CB-4778-AAF6-F9BF0B657A25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A4B2EDE-32CB-4778-AAF6-F9BF0B657A25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A4B2EDE-32CB-4778-AAF6-F9BF0B657A25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E96EDD82-BCE5-4D71-9FCB-8898FA6ADCC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E96EDD82-BCE5-4D71-9FCB-8898FA6ADCC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E96EDD82-BCE5-4D71-9FCB-8898FA6ADCC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E96EDD82-BCE5-4D71-9FCB-8898FA6ADCC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {054ECBD0-55C2-4B6F-8CBA-8F608E603777}
+		SolutionGuid = {93D8A4C5-85D9-46BD-8040-0F5A2810208D}
 	EndGlobalSection
 EndGlobal

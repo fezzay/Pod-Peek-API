@@ -1,94 +1,98 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\Pod-Peek-API\\PodPeek.Api\\",
+  "WorkspaceRootPath": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{57CACD30-EE65-4EE1-BD85-C7486AA0BDE8}|PodPeek.Domain\\PodPeek.Domain.csproj|f:\\pod-peek-api\\podpeek.api\\podpeek.domain\\services\\kubeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57CACD30-EE65-4EE1-BD85-C7486AA0BDE8}|PodPeek.Domain\\PodPeek.Domain.csproj|solutionrelative:podpeek.domain\\services\\kubeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E96EDD82-BCE5-4D71-9FCB-8898FA6ADCC1}|PodPeek.KubeClient\\PodPeek.KubeClient.csproj|f:\\pod-peek\\pod-peek-api\\podpeek.api\\podpeek.kubeclient\\mappers\\servicemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E96EDD82-BCE5-4D71-9FCB-8898FA6ADCC1}|PodPeek.KubeClient\\PodPeek.KubeClient.csproj|solutionrelative:podpeek.kubeclient\\mappers\\servicemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{666C2663-700E-4379-A3EE-3BB86126FB67}|PodPeek.Api\\PodPeek.Api.csproj|f:\\pod-peek-api\\podpeek.api\\podpeek.api\\controllers\\graphcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{666C2663-700E-4379-A3EE-3BB86126FB67}|PodPeek.Api\\PodPeek.Api.csproj|solutionrelative:podpeek.api\\controllers\\graphcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E96EDD82-BCE5-4D71-9FCB-8898FA6ADCC1}|PodPeek.KubeClient\\PodPeek.KubeClient.csproj|f:\\pod-peek\\pod-peek-api\\podpeek.api\\podpeek.kubeclient\\mappers\\podmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E96EDD82-BCE5-4D71-9FCB-8898FA6ADCC1}|PodPeek.KubeClient\\PodPeek.KubeClient.csproj|solutionrelative:podpeek.kubeclient\\mappers\\podmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{666C2663-700E-4379-A3EE-3BB86126FB67}|PodPeek.Api\\PodPeek.Api.csproj|f:\\pod-peek-api\\podpeek.api\\podpeek.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{666C2663-700E-4379-A3EE-3BB86126FB67}|PodPeek.Api\\PodPeek.Api.csproj|solutionrelative:podpeek.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E96EDD82-BCE5-4D71-9FCB-8898FA6ADCC1}|PodPeek.KubeClient\\PodPeek.KubeClient.csproj|f:\\pod-peek\\pod-peek-api\\podpeek.api\\podpeek.kubeclient\\mappers\\ingressmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E96EDD82-BCE5-4D71-9FCB-8898FA6ADCC1}|PodPeek.KubeClient\\PodPeek.KubeClient.csproj|solutionrelative:podpeek.kubeclient\\mappers\\ingressmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57CACD30-EE65-4EE1-BD85-C7486AA0BDE8}|PodPeek.Domain\\PodPeek.Domain.csproj|f:\\pod-peek-api\\podpeek.api\\podpeek.domain\\interfaces\\ikubeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57CACD30-EE65-4EE1-BD85-C7486AA0BDE8}|PodPeek.Domain\\PodPeek.Domain.csproj|solutionrelative:podpeek.domain\\interfaces\\ikubeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E96EDD82-BCE5-4D71-9FCB-8898FA6ADCC1}|PodPeek.KubeClient\\PodPeek.KubeClient.csproj|f:\\pod-peek\\pod-peek-api\\podpeek.api\\podpeek.kubeclient\\kubeclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E96EDD82-BCE5-4D71-9FCB-8898FA6ADCC1}|PodPeek.KubeClient\\PodPeek.KubeClient.csproj|solutionrelative:podpeek.kubeclient\\kubeclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57CACD30-EE65-4EE1-BD85-C7486AA0BDE8}|PodPeek.Domain\\PodPeek.Domain.csproj|f:\\pod-peek-api\\podpeek.api\\podpeek.domain\\models\\graph\\edge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57CACD30-EE65-4EE1-BD85-C7486AA0BDE8}|PodPeek.Domain\\PodPeek.Domain.csproj|solutionrelative:podpeek.domain\\models\\graph\\edge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A4B2EDE-32CB-4778-AAF6-F9BF0B657A25}|PodPeek.Domain\\PodPeek.Domain.csproj|f:\\pod-peek\\pod-peek-api\\podpeek.api\\podpeek.domain\\models\\graph\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A4B2EDE-32CB-4778-AAF6-F9BF0B657A25}|PodPeek.Domain\\PodPeek.Domain.csproj|solutionrelative:podpeek.domain\\models\\graph\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57CACD30-EE65-4EE1-BD85-C7486AA0BDE8}|PodPeek.Domain\\PodPeek.Domain.csproj|f:\\pod-peek-api\\podpeek.api\\podpeek.domain\\models\\kubernetes\\rule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57CACD30-EE65-4EE1-BD85-C7486AA0BDE8}|PodPeek.Domain\\PodPeek.Domain.csproj|solutionrelative:podpeek.domain\\models\\kubernetes\\rule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A4B2EDE-32CB-4778-AAF6-F9BF0B657A25}|PodPeek.Domain\\PodPeek.Domain.csproj|f:\\pod-peek\\pod-peek-api\\podpeek.api\\podpeek.domain\\models\\graph\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A4B2EDE-32CB-4778-AAF6-F9BF0B657A25}|PodPeek.Domain\\PodPeek.Domain.csproj|solutionrelative:podpeek.domain\\models\\graph\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57CACD30-EE65-4EE1-BD85-C7486AA0BDE8}|PodPeek.Domain\\PodPeek.Domain.csproj|f:\\pod-peek-api\\podpeek.api\\podpeek.domain\\models\\kubernetes\\port.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57CACD30-EE65-4EE1-BD85-C7486AA0BDE8}|PodPeek.Domain\\PodPeek.Domain.csproj|solutionrelative:podpeek.domain\\models\\kubernetes\\port.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1BF2B52F-2F87-4974-BDD5-DC6F140C1275}|PodPeek.Api\\PodPeek.Api.csproj|f:\\pod-peek\\pod-peek-api\\podpeek.api\\podpeek.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BF2B52F-2F87-4974-BDD5-DC6F140C1275}|PodPeek.Api\\PodPeek.Api.csproj|solutionrelative:podpeek.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57CACD30-EE65-4EE1-BD85-C7486AA0BDE8}|PodPeek.Domain\\PodPeek.Domain.csproj|f:\\pod-peek-api\\podpeek.api\\podpeek.domain\\models\\kubernetes\\container.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57CACD30-EE65-4EE1-BD85-C7486AA0BDE8}|PodPeek.Domain\\PodPeek.Domain.csproj|solutionrelative:podpeek.domain\\models\\kubernetes\\container.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A4B2EDE-32CB-4778-AAF6-F9BF0B657A25}|PodPeek.Domain\\PodPeek.Domain.csproj|f:\\pod-peek\\pod-peek-api\\podpeek.api\\podpeek.domain\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A4B2EDE-32CB-4778-AAF6-F9BF0B657A25}|PodPeek.Domain\\PodPeek.Domain.csproj|solutionrelative:podpeek.domain\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57CACD30-EE65-4EE1-BD85-C7486AA0BDE8}|PodPeek.Domain\\PodPeek.Domain.csproj|f:\\pod-peek-api\\podpeek.api\\podpeek.domain\\models\\kubernetes\\pod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57CACD30-EE65-4EE1-BD85-C7486AA0BDE8}|PodPeek.Domain\\PodPeek.Domain.csproj|solutionrelative:podpeek.domain\\models\\kubernetes\\pod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1BF2B52F-2F87-4974-BDD5-DC6F140C1275}|PodPeek.Api\\PodPeek.Api.csproj|f:\\pod-peek\\pod-peek-api\\podpeek.api\\podpeek.api\\controllers\\graphcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BF2B52F-2F87-4974-BDD5-DC6F140C1275}|PodPeek.Api\\PodPeek.Api.csproj|solutionrelative:podpeek.api\\controllers\\graphcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57CACD30-EE65-4EE1-BD85-C7486AA0BDE8}|PodPeek.Domain\\PodPeek.Domain.csproj|f:\\pod-peek-api\\podpeek.api\\podpeek.domain\\models\\graph\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57CACD30-EE65-4EE1-BD85-C7486AA0BDE8}|PodPeek.Domain\\PodPeek.Domain.csproj|solutionrelative:podpeek.domain\\models\\graph\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E96EDD82-BCE5-4D71-9FCB-8898FA6ADCC1}|PodPeek.KubeClient\\PodPeek.KubeClient.csproj|f:\\pod-peek\\pod-peek-api\\podpeek.api\\podpeek.kubeclient\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E96EDD82-BCE5-4D71-9FCB-8898FA6ADCC1}|PodPeek.KubeClient\\PodPeek.KubeClient.csproj|solutionrelative:podpeek.kubeclient\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57CACD30-EE65-4EE1-BD85-C7486AA0BDE8}|PodPeek.Domain\\PodPeek.Domain.csproj|f:\\pod-peek-api\\podpeek.api\\podpeek.domain\\models\\kubernetes\\kubeobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57CACD30-EE65-4EE1-BD85-C7486AA0BDE8}|PodPeek.Domain\\PodPeek.Domain.csproj|solutionrelative:podpeek.domain\\models\\kubernetes\\kubeobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A4B2EDE-32CB-4778-AAF6-F9BF0B657A25}|PodPeek.Domain\\PodPeek.Domain.csproj|f:\\pod-peek\\pod-peek-api\\podpeek.api\\podpeek.domain\\interfaces\\ikubeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A4B2EDE-32CB-4778-AAF6-F9BF0B657A25}|PodPeek.Domain\\PodPeek.Domain.csproj|solutionrelative:podpeek.domain\\interfaces\\ikubeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57CACD30-EE65-4EE1-BD85-C7486AA0BDE8}|PodPeek.Domain\\PodPeek.Domain.csproj|f:\\pod-peek-api\\podpeek.api\\podpeek.domain\\models\\graph\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57CACD30-EE65-4EE1-BD85-C7486AA0BDE8}|PodPeek.Domain\\PodPeek.Domain.csproj|solutionrelative:podpeek.domain\\models\\graph\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A4B2EDE-32CB-4778-AAF6-F9BF0B657A25}|PodPeek.Domain\\PodPeek.Domain.csproj|f:\\pod-peek\\pod-peek-api\\podpeek.api\\podpeek.domain\\interfaces\\ikubeclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A4B2EDE-32CB-4778-AAF6-F9BF0B657A25}|PodPeek.Domain\\PodPeek.Domain.csproj|solutionrelative:podpeek.domain\\interfaces\\ikubeclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57CACD30-EE65-4EE1-BD85-C7486AA0BDE8}|PodPeek.Domain\\PodPeek.Domain.csproj|f:\\pod-peek-api\\podpeek.api\\podpeek.domain\\models\\graph\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57CACD30-EE65-4EE1-BD85-C7486AA0BDE8}|PodPeek.Domain\\PodPeek.Domain.csproj|solutionrelative:podpeek.domain\\models\\graph\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A4B2EDE-32CB-4778-AAF6-F9BF0B657A25}|PodPeek.Domain\\PodPeek.Domain.csproj|f:\\pod-peek\\pod-peek-api\\podpeek.api\\podpeek.domain\\services\\kubeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A4B2EDE-32CB-4778-AAF6-F9BF0B657A25}|PodPeek.Domain\\PodPeek.Domain.csproj|solutionrelative:podpeek.domain\\services\\kubeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57CACD30-EE65-4EE1-BD85-C7486AA0BDE8}|PodPeek.Domain\\PodPeek.Domain.csproj|f:\\pod-peek-api\\podpeek.api\\podpeek.domain\\models\\kubernetes\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57CACD30-EE65-4EE1-BD85-C7486AA0BDE8}|PodPeek.Domain\\PodPeek.Domain.csproj|solutionrelative:podpeek.domain\\models\\kubernetes\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A4B2EDE-32CB-4778-AAF6-F9BF0B657A25}|PodPeek.Domain\\PodPeek.Domain.csproj|f:\\pod-peek\\pod-peek-api\\podpeek.api\\podpeek.domain\\models\\kubernetes\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A4B2EDE-32CB-4778-AAF6-F9BF0B657A25}|PodPeek.Domain\\PodPeek.Domain.csproj|solutionrelative:podpeek.domain\\models\\kubernetes\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A36AE58-EF6E-42D4-9509-A2E5F4D3DE58}|PodPeek.KubeClient\\PodPeek.KubeClient.csproj|f:\\pod-peek-api\\podpeek.api\\podpeek.kubeclient\\mappers\\podmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A36AE58-EF6E-42D4-9509-A2E5F4D3DE58}|PodPeek.KubeClient\\PodPeek.KubeClient.csproj|solutionrelative:podpeek.kubeclient\\mappers\\podmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A4B2EDE-32CB-4778-AAF6-F9BF0B657A25}|PodPeek.Domain\\PodPeek.Domain.csproj|f:\\pod-peek\\pod-peek-api\\podpeek.api\\podpeek.domain\\models\\kubernetes\\rule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A4B2EDE-32CB-4778-AAF6-F9BF0B657A25}|PodPeek.Domain\\PodPeek.Domain.csproj|solutionrelative:podpeek.domain\\models\\kubernetes\\rule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A36AE58-EF6E-42D4-9509-A2E5F4D3DE58}|PodPeek.KubeClient\\PodPeek.KubeClient.csproj|f:\\pod-peek-api\\podpeek.api\\podpeek.kubeclient\\mappers\\servicemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A36AE58-EF6E-42D4-9509-A2E5F4D3DE58}|PodPeek.KubeClient\\PodPeek.KubeClient.csproj|solutionrelative:podpeek.kubeclient\\mappers\\servicemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A4B2EDE-32CB-4778-AAF6-F9BF0B657A25}|PodPeek.Domain\\PodPeek.Domain.csproj|f:\\pod-peek\\pod-peek-api\\podpeek.api\\podpeek.domain\\models\\kubernetes\\port.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A4B2EDE-32CB-4778-AAF6-F9BF0B657A25}|PodPeek.Domain\\PodPeek.Domain.csproj|solutionrelative:podpeek.domain\\models\\kubernetes\\port.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57CACD30-EE65-4EE1-BD85-C7486AA0BDE8}|PodPeek.Domain\\PodPeek.Domain.csproj|f:\\pod-peek-api\\podpeek.api\\podpeek.domain\\models\\kubernetes\\ingress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57CACD30-EE65-4EE1-BD85-C7486AA0BDE8}|PodPeek.Domain\\PodPeek.Domain.csproj|solutionrelative:podpeek.domain\\models\\kubernetes\\ingress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A4B2EDE-32CB-4778-AAF6-F9BF0B657A25}|PodPeek.Domain\\PodPeek.Domain.csproj|f:\\pod-peek\\pod-peek-api\\podpeek.api\\podpeek.domain\\models\\kubernetes\\pod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A4B2EDE-32CB-4778-AAF6-F9BF0B657A25}|PodPeek.Domain\\PodPeek.Domain.csproj|solutionrelative:podpeek.domain\\models\\kubernetes\\pod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A36AE58-EF6E-42D4-9509-A2E5F4D3DE58}|PodPeek.KubeClient\\PodPeek.KubeClient.csproj|f:\\pod-peek-api\\podpeek.api\\podpeek.kubeclient\\kubeclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A36AE58-EF6E-42D4-9509-A2E5F4D3DE58}|PodPeek.KubeClient\\PodPeek.KubeClient.csproj|solutionrelative:podpeek.kubeclient\\kubeclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A4B2EDE-32CB-4778-AAF6-F9BF0B657A25}|PodPeek.Domain\\PodPeek.Domain.csproj|f:\\pod-peek\\pod-peek-api\\podpeek.api\\podpeek.domain\\models\\kubernetes\\kubeobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A4B2EDE-32CB-4778-AAF6-F9BF0B657A25}|PodPeek.Domain\\PodPeek.Domain.csproj|solutionrelative:podpeek.domain\\models\\kubernetes\\kubeobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57CACD30-EE65-4EE1-BD85-C7486AA0BDE8}|PodPeek.Domain\\PodPeek.Domain.csproj|f:\\pod-peek-api\\podpeek.api\\podpeek.domain\\interfaces\\ikubeclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57CACD30-EE65-4EE1-BD85-C7486AA0BDE8}|PodPeek.Domain\\PodPeek.Domain.csproj|solutionrelative:podpeek.domain\\interfaces\\ikubeclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A4B2EDE-32CB-4778-AAF6-F9BF0B657A25}|PodPeek.Domain\\PodPeek.Domain.csproj|f:\\pod-peek\\pod-peek-api\\podpeek.api\\podpeek.domain\\models\\kubernetes\\ingress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A4B2EDE-32CB-4778-AAF6-F9BF0B657A25}|PodPeek.Domain\\PodPeek.Domain.csproj|solutionrelative:podpeek.domain\\models\\kubernetes\\ingress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A36AE58-EF6E-42D4-9509-A2E5F4D3DE58}|PodPeek.KubeClient\\PodPeek.KubeClient.csproj|f:\\pod-peek-api\\podpeek.api\\podpeek.kubeclient\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A36AE58-EF6E-42D4-9509-A2E5F4D3DE58}|PodPeek.KubeClient\\PodPeek.KubeClient.csproj|solutionrelative:podpeek.kubeclient\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A4B2EDE-32CB-4778-AAF6-F9BF0B657A25}|PodPeek.Domain\\PodPeek.Domain.csproj|f:\\pod-peek\\pod-peek-api\\podpeek.api\\podpeek.domain\\models\\kubernetes\\container.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A4B2EDE-32CB-4778-AAF6-F9BF0B657A25}|PodPeek.Domain\\PodPeek.Domain.csproj|solutionrelative:podpeek.domain\\models\\kubernetes\\container.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57CACD30-EE65-4EE1-BD85-C7486AA0BDE8}|PodPeek.Domain\\PodPeek.Domain.csproj|f:\\pod-peek-api\\podpeek.api\\podpeek.domain\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57CACD30-EE65-4EE1-BD85-C7486AA0BDE8}|PodPeek.Domain\\PodPeek.Domain.csproj|solutionrelative:podpeek.domain\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A4B2EDE-32CB-4778-AAF6-F9BF0B657A25}|PodPeek.Domain\\PodPeek.Domain.csproj|f:\\pod-peek\\pod-peek-api\\podpeek.api\\podpeek.domain\\models\\graph\\edge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A4B2EDE-32CB-4778-AAF6-F9BF0B657A25}|PodPeek.Domain\\PodPeek.Domain.csproj|solutionrelative:podpeek.domain\\models\\graph\\edge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A36AE58-EF6E-42D4-9509-A2E5F4D3DE58}|PodPeek.KubeClient\\PodPeek.KubeClient.csproj|f:\\pod-peek-api\\podpeek.api\\podpeek.kubeclient\\mappers\\ingressmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A36AE58-EF6E-42D4-9509-A2E5F4D3DE58}|PodPeek.KubeClient\\PodPeek.KubeClient.csproj|solutionrelative:podpeek.kubeclient\\mappers\\ingressmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A4B2EDE-32CB-4778-AAF6-F9BF0B657A25}|PodPeek.Domain\\PodPeek.Domain.csproj|f:\\pod-peek\\pod-peek-api\\podpeek.api\\podpeek.domain\\models\\graph\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A4B2EDE-32CB-4778-AAF6-F9BF0B657A25}|PodPeek.Domain\\PodPeek.Domain.csproj|solutionrelative:podpeek.domain\\models\\graph\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BF2B52F-2F87-4974-BDD5-DC6F140C1275}|PodPeek.Api\\PodPeek.Api.csproj|f:\\pod-peek\\pod-peek-api\\podpeek.api\\podpeek.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1BF2B52F-2F87-4974-BDD5-DC6F140C1275}|PodPeek.Api\\PodPeek.Api.csproj|solutionrelative:podpeek.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -98,292 +102,305 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Edge.cs",
-              "DocumentMoniker": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Graph\\Edge.cs",
-              "RelativeDocumentMoniker": "PodPeek.Domain\\Models\\Graph\\Edge.cs",
-              "ToolTip": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Graph\\Edge.cs",
-              "RelativeToolTip": "PodPeek.Domain\\Models\\Graph\\Edge.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T22:15:46.099Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Graph.cs",
-              "DocumentMoniker": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Graph\\Graph.cs",
-              "RelativeDocumentMoniker": "PodPeek.Domain\\Models\\Graph\\Graph.cs",
-              "ToolTip": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Graph\\Graph.cs",
-              "RelativeToolTip": "PodPeek.Domain\\Models\\Graph\\Graph.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T22:15:13.796Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ServiceMapper.cs",
-              "DocumentMoniker": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.KubeClient\\Mappers\\ServiceMapper.cs",
-              "RelativeDocumentMoniker": "PodPeek.KubeClient\\Mappers\\ServiceMapper.cs",
-              "ToolTip": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.KubeClient\\Mappers\\ServiceMapper.cs",
-              "RelativeToolTip": "PodPeek.KubeClient\\Mappers\\ServiceMapper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T21:43:33.127Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "PodMapper.cs",
-              "DocumentMoniker": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.KubeClient\\Mappers\\PodMapper.cs",
-              "RelativeDocumentMoniker": "PodPeek.KubeClient\\Mappers\\PodMapper.cs",
-              "ToolTip": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.KubeClient\\Mappers\\PodMapper.cs",
-              "RelativeToolTip": "PodPeek.KubeClient\\Mappers\\PodMapper.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAA0wBQAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T21:33:23.623Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "KubeService.cs",
-              "DocumentMoniker": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Services\\KubeService.cs",
-              "RelativeDocumentMoniker": "PodPeek.Domain\\Services\\KubeService.cs",
-              "ToolTip": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Services\\KubeService.cs",
-              "RelativeToolTip": "PodPeek.Domain\\Services\\KubeService.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAowJ4AAAAAAAAA",
+              "Title": "ServiceMapper.cs",
+              "DocumentMoniker": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.KubeClient\\Mappers\\ServiceMapper.cs",
+              "RelativeDocumentMoniker": "PodPeek.KubeClient\\Mappers\\ServiceMapper.cs",
+              "ToolTip": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.KubeClient\\Mappers\\ServiceMapper.cs",
+              "RelativeToolTip": "PodPeek.KubeClient\\Mappers\\ServiceMapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T21:59:22.915Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "KubeObject.cs",
-              "DocumentMoniker": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Kubernetes\\KubeObject.cs",
-              "RelativeDocumentMoniker": "PodPeek.Domain\\Models\\Kubernetes\\KubeObject.cs",
-              "ToolTip": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Kubernetes\\KubeObject.cs",
-              "RelativeToolTip": "PodPeek.Domain\\Models\\Kubernetes\\KubeObject.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T21:10:16.911Z",
+              "WhenOpened": "2025-10-03T19:54:55.772Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GraphController.cs",
-              "DocumentMoniker": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Api\\Controllers\\GraphController.cs",
-              "RelativeDocumentMoniker": "PodPeek.Api\\Controllers\\GraphController.cs",
-              "ToolTip": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Api\\Controllers\\GraphController.cs",
-              "RelativeToolTip": "PodPeek.Api\\Controllers\\GraphController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Title": "PodMapper.cs",
+              "DocumentMoniker": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.KubeClient\\Mappers\\PodMapper.cs",
+              "RelativeDocumentMoniker": "PodPeek.KubeClient\\Mappers\\PodMapper.cs",
+              "ToolTip": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.KubeClient\\Mappers\\PodMapper.cs",
+              "RelativeToolTip": "PodPeek.KubeClient\\Mappers\\PodMapper.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAcwDQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T22:10:38.541Z",
+              "WhenOpened": "2025-10-03T19:54:49.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IngressMapper.cs",
+              "DocumentMoniker": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.KubeClient\\Mappers\\IngressMapper.cs",
+              "RelativeDocumentMoniker": "PodPeek.KubeClient\\Mappers\\IngressMapper.cs",
+              "ToolTip": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.KubeClient\\Mappers\\IngressMapper.cs",
+              "RelativeToolTip": "PodPeek.KubeClient\\Mappers\\IngressMapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T19:54:44.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Position.cs",
+              "DocumentMoniker": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Graph\\Position.cs",
+              "RelativeDocumentMoniker": "PodPeek.Domain\\Models\\Graph\\Position.cs",
+              "ToolTip": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Graph\\Position.cs",
+              "RelativeToolTip": "PodPeek.Domain\\Models\\Graph\\Position.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T19:54:10.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "PodPeek.Domain\\ServiceCollectionExtensions.cs",
+              "ToolTip": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "PodPeek.Domain\\ServiceCollectionExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T19:51:34.219Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Node.cs",
-              "DocumentMoniker": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Graph\\Node.cs",
-              "RelativeDocumentMoniker": "PodPeek.Domain\\Models\\Graph\\Node.cs",
-              "ToolTip": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Graph\\Node.cs",
-              "RelativeToolTip": "PodPeek.Domain\\Models\\Graph\\Node.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAKAAAA",
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.KubeClient\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "PodPeek.KubeClient\\ServiceCollectionExtensions.cs",
+              "ToolTip": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.KubeClient\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "PodPeek.KubeClient\\ServiceCollectionExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T20:21:43.868Z",
+              "WhenOpened": "2025-10-03T19:51:19.041Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Position.cs",
-              "DocumentMoniker": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Graph\\Position.cs",
-              "RelativeDocumentMoniker": "PodPeek.Domain\\Models\\Graph\\Position.cs",
-              "ToolTip": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Graph\\Position.cs",
-              "RelativeToolTip": "PodPeek.Domain\\Models\\Graph\\Position.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAKAAAA",
+              "DocumentIndex": 10,
+              "Title": "IKubeService.cs",
+              "DocumentMoniker": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Interfaces\\IKubeService.cs",
+              "RelativeDocumentMoniker": "PodPeek.Domain\\Interfaces\\IKubeService.cs",
+              "ToolTip": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Interfaces\\IKubeService.cs",
+              "RelativeToolTip": "PodPeek.Domain\\Interfaces\\IKubeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T20:25:17.68Z",
+              "WhenOpened": "2025-10-03T19:50:41.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IKubeClient.cs",
+              "DocumentMoniker": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Interfaces\\IKubeClient.cs",
+              "RelativeDocumentMoniker": "PodPeek.Domain\\Interfaces\\IKubeClient.cs",
+              "ToolTip": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Interfaces\\IKubeClient.cs",
+              "RelativeToolTip": "PodPeek.Domain\\Interfaces\\IKubeClient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T19:50:28.864Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IKubeService.cs",
-              "DocumentMoniker": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Interfaces\\IKubeService.cs",
-              "RelativeDocumentMoniker": "PodPeek.Domain\\Interfaces\\IKubeService.cs",
-              "ToolTip": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Interfaces\\IKubeService.cs",
-              "RelativeToolTip": "PodPeek.Domain\\Interfaces\\IKubeService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA1AAAA",
+              "Title": "KubeClient.cs",
+              "DocumentMoniker": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.KubeClient\\KubeClient.cs",
+              "RelativeDocumentMoniker": "PodPeek.KubeClient\\KubeClient.cs",
+              "ToolTip": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.KubeClient\\KubeClient.cs",
+              "RelativeToolTip": "PodPeek.KubeClient\\KubeClient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T20:09:42.256Z",
+              "WhenOpened": "2025-10-03T19:50:08.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "KubeService.cs",
+              "DocumentMoniker": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Services\\KubeService.cs",
+              "RelativeDocumentMoniker": "PodPeek.Domain\\Services\\KubeService.cs",
+              "ToolTip": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Services\\KubeService.cs",
+              "RelativeToolTip": "PodPeek.Domain\\Services\\KubeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJ4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T19:49:27.687Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "Service.cs",
-              "DocumentMoniker": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Kubernetes\\Service.cs",
+              "DocumentMoniker": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Kubernetes\\Service.cs",
               "RelativeDocumentMoniker": "PodPeek.Domain\\Models\\Kubernetes\\Service.cs",
-              "ToolTip": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Kubernetes\\Service.cs",
+              "ToolTip": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Kubernetes\\Service.cs",
               "RelativeToolTip": "PodPeek.Domain\\Models\\Kubernetes\\Service.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAdAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T20:49:46.791Z",
+              "WhenOpened": "2025-10-03T19:48:40.453Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Port.cs",
-              "DocumentMoniker": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Kubernetes\\Port.cs",
-              "RelativeDocumentMoniker": "PodPeek.Domain\\Models\\Kubernetes\\Port.cs",
-              "ToolTip": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Kubernetes\\Port.cs",
-              "RelativeToolTip": "PodPeek.Domain\\Models\\Kubernetes\\Port.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAMAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T21:03:08.782Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Container.cs",
-              "DocumentMoniker": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Kubernetes\\Container.cs",
-              "RelativeDocumentMoniker": "PodPeek.Domain\\Models\\Kubernetes\\Container.cs",
-              "ToolTip": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Kubernetes\\Container.cs",
-              "RelativeToolTip": "PodPeek.Domain\\Models\\Kubernetes\\Container.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T21:01:23.05Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Pod.cs",
-              "DocumentMoniker": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Kubernetes\\Pod.cs",
-              "RelativeDocumentMoniker": "PodPeek.Domain\\Models\\Kubernetes\\Pod.cs",
-              "ToolTip": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Kubernetes\\Pod.cs",
-              "RelativeToolTip": "PodPeek.Domain\\Models\\Kubernetes\\Pod.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T20:49:26.158Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
               "Title": "Rule.cs",
-              "DocumentMoniker": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Kubernetes\\Rule.cs",
+              "DocumentMoniker": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Kubernetes\\Rule.cs",
               "RelativeDocumentMoniker": "PodPeek.Domain\\Models\\Kubernetes\\Rule.cs",
-              "ToolTip": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Kubernetes\\Rule.cs",
+              "ToolTip": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Kubernetes\\Rule.cs",
               "RelativeToolTip": "PodPeek.Domain\\Models\\Kubernetes\\Rule.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAXAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T21:14:26.029Z",
+              "WhenOpened": "2025-10-03T19:48:34.566Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Api\\Program.cs",
-              "RelativeDocumentMoniker": "PodPeek.Api\\Program.cs",
-              "ToolTip": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Api\\Program.cs",
-              "RelativeToolTip": "PodPeek.Api\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAxAAAA",
+              "DocumentIndex": 15,
+              "Title": "Port.cs",
+              "DocumentMoniker": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Kubernetes\\Port.cs",
+              "RelativeDocumentMoniker": "PodPeek.Domain\\Models\\Kubernetes\\Port.cs",
+              "ToolTip": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Kubernetes\\Port.cs",
+              "RelativeToolTip": "PodPeek.Domain\\Models\\Kubernetes\\Port.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T20:11:45.987Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "KubeClient.cs",
-              "DocumentMoniker": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.KubeClient\\KubeClient.cs",
-              "RelativeDocumentMoniker": "PodPeek.KubeClient\\KubeClient.cs",
-              "ToolTip": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.KubeClient\\KubeClient.cs",
-              "RelativeToolTip": "PodPeek.KubeClient\\KubeClient.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T21:59:49.927Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IKubeClient.cs",
-              "DocumentMoniker": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Interfaces\\IKubeClient.cs",
-              "RelativeDocumentMoniker": "PodPeek.Domain\\Interfaces\\IKubeClient.cs",
-              "ToolTip": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Interfaces\\IKubeClient.cs",
-              "RelativeToolTip": "PodPeek.Domain\\Interfaces\\IKubeClient.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAABkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T20:02:33.478Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ServiceCollectionExtensions.cs",
-              "DocumentMoniker": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.KubeClient\\ServiceCollectionExtensions.cs",
-              "RelativeDocumentMoniker": "PodPeek.KubeClient\\ServiceCollectionExtensions.cs",
-              "ToolTip": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.KubeClient\\ServiceCollectionExtensions.cs",
-              "RelativeToolTip": "PodPeek.KubeClient\\ServiceCollectionExtensions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T22:05:30.58Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ServiceCollectionExtensions.cs",
-              "DocumentMoniker": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\ServiceCollectionExtensions.cs",
-              "RelativeDocumentMoniker": "PodPeek.Domain\\ServiceCollectionExtensions.cs",
-              "ToolTip": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\ServiceCollectionExtensions.cs",
-              "RelativeToolTip": "PodPeek.Domain\\ServiceCollectionExtensions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T20:07:04.083Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IngressMapper.cs",
-              "DocumentMoniker": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.KubeClient\\Mappers\\IngressMapper.cs",
-              "RelativeDocumentMoniker": "PodPeek.KubeClient\\Mappers\\IngressMapper.cs",
-              "ToolTip": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.KubeClient\\Mappers\\IngressMapper.cs",
-              "RelativeToolTip": "PodPeek.KubeClient\\Mappers\\IngressMapper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T21:40:14.754Z",
+              "WhenOpened": "2025-10-03T19:48:29.089Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "Ingress.cs",
-              "DocumentMoniker": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Kubernetes\\Ingress.cs",
-              "RelativeDocumentMoniker": "PodPeek.Domain\\Models\\Kubernetes\\Ingress.cs",
-              "ToolTip": "F:\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Kubernetes\\Ingress.cs",
-              "RelativeToolTip": "PodPeek.Domain\\Models\\Kubernetes\\Ingress.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAKAAAA",
+              "Title": "Pod.cs",
+              "DocumentMoniker": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Kubernetes\\Pod.cs",
+              "RelativeDocumentMoniker": "PodPeek.Domain\\Models\\Kubernetes\\Pod.cs",
+              "ToolTip": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Kubernetes\\Pod.cs",
+              "RelativeToolTip": "PodPeek.Domain\\Models\\Kubernetes\\Pod.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T20:49:51.469Z",
+              "WhenOpened": "2025-10-03T19:48:24.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "KubeObject.cs",
+              "DocumentMoniker": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Kubernetes\\KubeObject.cs",
+              "RelativeDocumentMoniker": "PodPeek.Domain\\Models\\Kubernetes\\KubeObject.cs",
+              "ToolTip": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Kubernetes\\KubeObject.cs",
+              "RelativeToolTip": "PodPeek.Domain\\Models\\Kubernetes\\KubeObject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T19:48:19.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GraphController.cs",
+              "DocumentMoniker": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Api\\Controllers\\GraphController.cs",
+              "RelativeDocumentMoniker": "PodPeek.Api\\Controllers\\GraphController.cs",
+              "ToolTip": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Api\\Controllers\\GraphController.cs",
+              "RelativeToolTip": "PodPeek.Api\\Controllers\\GraphController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T19:45:18.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Node.cs",
+              "DocumentMoniker": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Graph\\Node.cs",
+              "RelativeDocumentMoniker": "PodPeek.Domain\\Models\\Graph\\Node.cs",
+              "ToolTip": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Graph\\Node.cs",
+              "RelativeToolTip": "PodPeek.Domain\\Models\\Graph\\Node.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T19:47:20.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Api\\Program.cs",
+              "RelativeDocumentMoniker": "PodPeek.Api\\Program.cs",
+              "ToolTip": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Api\\Program.cs",
+              "RelativeToolTip": "PodPeek.Api\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T19:45:43.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Ingress.cs",
+              "DocumentMoniker": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Kubernetes\\Ingress.cs",
+              "RelativeDocumentMoniker": "PodPeek.Domain\\Models\\Kubernetes\\Ingress.cs",
+              "ToolTip": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Kubernetes\\Ingress.cs",
+              "RelativeToolTip": "PodPeek.Domain\\Models\\Kubernetes\\Ingress.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T19:48:12.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Container.cs",
+              "DocumentMoniker": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Kubernetes\\Container.cs",
+              "RelativeDocumentMoniker": "PodPeek.Domain\\Models\\Kubernetes\\Container.cs",
+              "ToolTip": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Kubernetes\\Container.cs",
+              "RelativeToolTip": "PodPeek.Domain\\Models\\Kubernetes\\Container.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T19:48:06.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Graph.cs",
+              "DocumentMoniker": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Graph\\Graph.cs",
+              "RelativeDocumentMoniker": "PodPeek.Domain\\Models\\Graph\\Graph.cs",
+              "ToolTip": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Graph\\Graph.cs",
+              "RelativeToolTip": "PodPeek.Domain\\Models\\Graph\\Graph.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T19:47:15.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Edge.cs",
+              "DocumentMoniker": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Graph\\Edge.cs",
+              "RelativeDocumentMoniker": "PodPeek.Domain\\Models\\Graph\\Edge.cs",
+              "ToolTip": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Domain\\Models\\Graph\\Edge.cs",
+              "RelativeToolTip": "PodPeek.Domain\\Models\\Graph\\Edge.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T19:47:08.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Api\\Dockerfile",
+              "RelativeDocumentMoniker": "PodPeek.Api\\Dockerfile",
+              "ToolTip": "F:\\Pod-Peek\\Pod-Peek-API\\PodPeek.Api\\PodPeek.Api\\Dockerfile",
+              "RelativeToolTip": "PodPeek.Api\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-03T19:45:33.338Z",
               "EditorCaption": ""
             },
             {

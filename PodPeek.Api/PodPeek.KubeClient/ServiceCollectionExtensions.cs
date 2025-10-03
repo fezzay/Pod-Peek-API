@@ -5,7 +5,7 @@ namespace PodPeek.KubeClient
 {
     public static class ServiceCollectionExtensions
     {
-        public static IServiceCollection AddKubeServices(this IServiceCollection services)
+        public static IServiceCollection AddKubeClient(this IServiceCollection services)
         {
             return services.AddSingleton<IKubeClient, KubeClient>();
         }

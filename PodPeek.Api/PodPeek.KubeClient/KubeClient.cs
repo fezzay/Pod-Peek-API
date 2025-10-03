@@ -6,13 +6,8 @@ namespace PodPeek.KubeClient
 {
     public class KubeClient : IKubeClient
     {
-        private readonly Kubernetes _client;
-
-        public KubeClient()
-        {
-            var config = KubernetesClientConfiguration.InClusterConfig();
-            _client = new Kubernetes(config);
-        }
+        private Kubernetes _client => new Kubernetes(_config);
+        private KubernetesClientConfiguration _config => KubernetesClientConfiguration.InClusterConfig();
 
         public async Task<IEnumerable<Pod>> GetPodsAsync(string namespaceName, IEnumerable<string>? serviceNames = null)
         {

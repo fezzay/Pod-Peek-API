@@ -2,8 +2,8 @@
 {
     public class Port
     {
-        public string Name { get; set; }
-        public int InternalPort {  get; set; }
+        public string Name { get; set; } = string.Empty;
+        public int InternalPort { get; set; }
         public int? TargetPort { get; set; }
     }
 }
