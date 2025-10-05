@@ -1,7 +1,5 @@
 ﻿using PodPeek.Domain.Interfaces;
 using PodPeek.Domain.Models.Graph;
-using PodPeek.Domain.Models.Kubernetes;
-using System.Linq;
 
 namespace PodPeek.Domain.Services
 {
@@ -9,61 +7,64 @@ namespace PodPeek.Domain.Services
     {
         public async Task<Graph> BuildGraph(string namespaceName)
         {
-            var ingresses = await _client.GetIngressesAsync(namespaceName);
-            var services = await _client.GetServicesAsync(namespaceName);
-            var pods = await _client.GetPodsAsync(namespaceName, services.Select(s => s.Name));
+            var ingresses = (await _client.GetIngressesAsync(namespaceName)).ToList();
+            var services = (await _client.GetServicesAsync(namespaceName)).ToList();
+            var pods = (await _client.GetPodsAsync(namespaceName, services.Select(s => s.Name))).ToList();
 
             var nodes = new List<Node>();
             var edges = new List<Edge>();
 
-            // 1. Pod nodes
+            // ---- Phase 1: Add nodes ----
+
+            // Pod nodes
+            int podY = 0;
             foreach (var pod in pods)
             {
-                var YAxis = 0;
                 nodes.Add(new Node
                 {
                     Id = Guid.NewGuid(),
                     Type = "pod",
                     Data = pod,
-                    Position = new Position { X = 0, Y = YAxis * 500 }
+                    Position = new Position { X = 0, Y = podY * 150 }
                 });
-                YAxis++;
+                podY++;
             }
 
-            // 2. Service nodes
+            // Service nodes
+            int svcY = 0;
             foreach (var svc in services)
             {
-                var YAxis = 0;
                 nodes.Add(new Node
                 {
                     Id = Guid.NewGuid(),
                     Type = "service",
                     Data = svc,
-                    Position = new Position { X = 500, Y = YAxis * 500 }
+                    Position = new Position { X = 500, Y = svcY * 150 }
                 });
-                YAxis++;
+                svcY++;
             }
 
-            // 3. Ingress nodes
+            // Ingress nodes
+            int ingY = 0;
             foreach (var ingress in ingresses)
             {
-                var YAxis = 0;
                 nodes.Add(new Node
                 {
                     Id = Guid.NewGuid(),
                     Type = "ingress",
                     Data = ingress,
-                    Position = new Position { X = 1000, Y = YAxis * 500 }
+                    Position = new Position { X = 1000, Y = ingY * 150 }
                 });
-                YAxis++;
+                ingY++;
             }
 
-            // ---- Phase 2: Build Edges ----
+            // ---- Phase 2: Build edges ----
 
             // Pod -> Service
             foreach (var pod in pods)
             {
-                var podNode = nodes.First(n => n.Data == pod);
+                var podNode = nodes.FirstOrDefault(n => n.Data == pod);
+                if (podNode == null) continue;
 
                 foreach (var container in pod.Containers)
                 {
@@ -75,7 +76,8 @@ namespace PodPeek.Domain.Services
 
                         if (svc != null)
                         {
-                            var svcNode = nodes.First(n => n.Data == svc);
+                            var svcNode = nodes.FirstOrDefault(n => n.Data == svc);
+                            if (svcNode == null) continue;
 
                             edges.Add(new Edge
                             {
@@ -92,7 +94,8 @@ namespace PodPeek.Domain.Services
             // Service -> Pod (via env vars)
             foreach (var pod in pods)
             {
-                var podNode = nodes.First(n => n.Data == pod);
+                var podNode = nodes.FirstOrDefault(n => n.Data == pod);
+                if (podNode == null) continue;
 
                 foreach (var container in pod.Containers)
                 {
@@ -105,7 +108,8 @@ namespace PodPeek.Domain.Services
 
                         if (svc != null)
                         {
-                            var svcNode = nodes.First(n => n.Data == svc);
+                            var svcNode = nodes.FirstOrDefault(n => n.Data == svc);
+                            if (svcNode == null) continue;
 
                             var matchedPort = svc.Ports.FirstOrDefault(p =>
                                 p.TargetPort.HasValue && env.Value.Contains(p.TargetPort.Value.ToString()));
@@ -125,16 +129,19 @@ namespace PodPeek.Domain.Services
                 }
             }
 
+            // Ingress -> Service
             foreach (var ingress in ingresses)
             {
-                var ingNode = nodes.First(n => n.Data == ingress);
+                var ingNode = nodes.FirstOrDefault(n => n.Data == ingress);
+                if (ingNode == null) continue;
 
                 foreach (var rule in ingress.Rules)
                 {
                     var svc = services.FirstOrDefault(s => s.Name == rule.Service);
                     if (svc != null)
                     {
-                        var svcNode = nodes.First(n => n.Data == svc);
+                        var svcNode = nodes.FirstOrDefault(n => n.Data == svc);
+                        if (svcNode == null) continue;
 
                         edges.Add(new Edge
                         {

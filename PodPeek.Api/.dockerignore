@@ -1,30 +1,45 @@
-**/.classpath
-**/.dockerignore
-**/.env
-**/.git
-**/.gitignore
-**/.project
-**/.settings
-**/.toolstarget
-**/.vs
+# 🧩 Common OS / IDE junk
+**/.DS_Store
+**/.idea
 **/.vscode
-**/*.*proj.user
-**/*.dbmdl
-**/*.jfm
-**/azds.yaml
 **/bin
-**/charts
-**/docker-compose*
-**/Dockerfile*
-**/node_modules
-**/npm-debug.log
 **/obj
-**/secrets.dev.yaml
-**/values.dev.yaml
-LICENSE
-README.md
-!**/.gitignore
-!.git/HEAD
-!.git/config
-!.git/packed-refs
-!.git/refs/heads/**
+**/out
+**/node_modules
+**/dist
+**/coverage
+**/logs
+*.log
+
+# 🧩 Git stuff
+.git
+.gitignore
+
+# 🧩 Local config / secrets
+.env
+.env.*
+secrets.*
+*.user
+*.suo
+
+# 🧩 Build artifacts
+*.dll
+*.pdb
+*.exe
+*.tar
+*.zip
+*.tgz
+*.nupkg
+
+# 🧩 CI/CD files you don't need inside image
+.github
+.gitlab-ci.yml
+azure-pipelines.yml
+docker-compose.yml
+
+# 🧩 Ignore the UI build source if you copy built assets separately
+PodPeek.UI/node_modules
+PodPeek.UI/.vite
+PodPeek.UI/.next
+PodPeek.UI/dist
+PodPeek.UI/build

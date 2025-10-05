@@ -12,9 +12,17 @@ namespace PodPeek.KubeClient
         public async Task<IEnumerable<Pod>> GetPodsAsync(string namespaceName, IEnumerable<string>? serviceNames = null)
         {
             var podList = await _client.ListNamespacedPodAsync(namespaceName);
+
+            // Safely get services if not provided
             if (serviceNames == null)
             {
-                serviceNames = (await GetServicesAsync(namespaceName)).Select(s => s.Name);
+                var services = await GetServicesAsync(namespaceName);
+                serviceNames = services.Select(s => s.Name).ToList();
+            }
+
+            if (!podList.Items.Any())
+            {
+                return Enumerable.Empty<Pod>();
             }
 
             var tasks = podList.Items.Select(p => Task.Run(() => PodMapper.Map(p, serviceNames)));
@@ -26,12 +34,24 @@ namespace PodPeek.KubeClient
         public async Task<IEnumerable<Ingress>> GetIngressesAsync(string namespaceName)
         {
             var ingressList = await _client.ListNamespacedIngressAsync(namespaceName);
+
+            if (ingressList.Items == null || !ingressList.Items.Any())
+            {
+                return Enumerable.Empty<Ingress>();
+            }
+
             return ingressList.Items.Select(IngressMapper.Map);
         }
 
         public async Task<IEnumerable<Service>> GetServicesAsync(string namespaceName)
         {
             var serviceList = await _client.ListNamespacedServiceAsync(namespaceName);
+
+            if (serviceList.Items == null || !serviceList.Items.Any())
+            {
+                return Enumerable.Empty<Service>();
+            }
+
             return serviceList.Items.Select(ServiceMapper.Map);
         }
     }
