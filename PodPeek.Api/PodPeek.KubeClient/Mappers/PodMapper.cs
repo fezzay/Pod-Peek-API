@@ -36,7 +36,7 @@ public static class PodMapper
         var mounts = v1Container.VolumeMounts?.Select(vm => vm.MountPath) ?? Enumerable.Empty<string>();
 
         var envVars = v1Container.Env?
-            .Where(e => !string.IsNullOrEmpty(e.Value) && servicesInNamespace.Contains(e.Value))
+            .Where(e => !string.IsNullOrEmpty(e.Value) && servicesInNamespace.Any(s => e.Value.Contains(s)))
             .ToDictionary(e => e.Name, e => e.Value)
             ?? new Dictionary<string, string>();
 
