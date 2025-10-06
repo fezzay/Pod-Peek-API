@@ -13,14 +13,13 @@ namespace PodPeek.KubeClient
         {
             var podList = await _client.ListNamespacedPodAsync(namespaceName);
 
-            // Safely get services if not provided
             if (serviceNames == null)
             {
                 var services = await GetServicesAsync(namespaceName) ?? Enumerable.Empty<Service>();
-                serviceNames = services.Select(s => s.Name).ToList();
+                serviceNames = services.Select(s => s.Name);
             }
 
-            if (serviceNames == null)
+            if (ingressHosts == null)
             {
                 var ingresses = await GetIngressesAsync(namespaceName) ?? Enumerable.Empty<Ingress>();
                 ingressHosts = ingresses.SelectMany(i => i.Hosts);
