@@ -110,20 +110,21 @@ namespace PodPeek.Domain.Services
                         if (svc != null)
                         {
                             var svcNode = nodes.FirstOrDefault(n => n.Data == svc);
-                            if (svcNode == null) continue;
-
-                            var matchedPort = svc.Ports.FirstOrDefault(p =>
+                            if (svcNode != null)
+                            {
+                                var matchedPort = svc.Ports.FirstOrDefault(p =>
                                 p.TargetPort.HasValue && env.Value.Contains(p.TargetPort.Value.ToString()));
 
-                            if (matchedPort != null)
-                            {
-                                edges.Add(new Edge
+                                if (matchedPort != null)
                                 {
-                                    Source = svcNode.Id,
-                                    Target = podNode.Id,
-                                    SourceHandle = $"targetPort-{matchedPort.TargetPort}",
-                                    TargetHandle = $"{container.Name}-env-{env.Key}"
-                                });
+                                    edges.Add(new Edge
+                                    {
+                                        Source = svcNode.Id,
+                                        Target = podNode.Id,
+                                        SourceHandle = $"targetPort-{matchedPort.TargetPort}",
+                                        TargetHandle = $"{container.Name}-env-{env.Key}"
+                                    });
+                                }
                             }
                         }
 
@@ -134,17 +135,18 @@ namespace PodPeek.Domain.Services
                         if (ing != null)
                         {
                             var ingNode = nodes.FirstOrDefault(n => n.Data == ing);
-                            if (ingNode == null) continue;
-
-                            var matchedHost = ing.Hosts.FirstOrDefault(h => env.Value.Contains(h, StringComparison.OrdinalIgnoreCase));
-
-                            edges.Add(new Edge
+                            if (ingNode != null)
                             {
-                                Source = ingNode.Id,
-                                Target = podNode.Id,
-                                SourceHandle = $"ingress-{matchedHost}",
-                                TargetHandle = $"{container.Name}-env-{env.Key}"
-                            });
+                                var matchedHost = ing.Hosts.FirstOrDefault(h => env.Value.Contains(h, StringComparison.OrdinalIgnoreCase));
+
+                                edges.Add(new Edge
+                                {
+                                    Source = ingNode.Id,
+                                    Target = podNode.Id,
+                                    SourceHandle = $"ingress-{matchedHost}",
+                                    TargetHandle = $"{container.Name}-env-{env.Key}"
+                                });
+                            }
                         }
                     }
                 }
