@@ -3,10 +3,10 @@ using PodPeek.Domain.Models.Kubernetes;
 
 public static class PodMapper
 {
-    public static Pod Map(V1Pod v1Pod, IEnumerable<string> servicesInNamespace)
+    public static Pod Map(V1Pod v1Pod, IEnumerable<string> servicesInNamespace, IEnumerable<string> ingressInNamespace)
     {
         var containers = v1Pod.Spec?.Containers
-            .Select(c => MapContainer(c, servicesInNamespace))
+            .Select(c => MapContainer(c, servicesInNamespace, ingressInNamespace))
             ?? Enumerable.Empty<Container>();
 
         var status = v1Pod.Status?.Phase ?? "Unknown";
@@ -36,7 +36,8 @@ public static class PodMapper
         var mounts = v1Container.VolumeMounts?.Select(vm => vm.MountPath) ?? Enumerable.Empty<string>();
 
         var envVars = v1Container.Env?
-            .Where(e => !string.IsNullOrEmpty(e.Value) && (servicesInNamespace.Any(s => e.Value.Contains(s)) || ingressInNamespace.Any(i => e.Value.Contains(i))))
+            .Where(e => !string.IsNullOrEmpty(e.Value) && 
+            (servicesInNamespace.Any(s => e.Value.Contains(s)) || ingressInNamespace.Any(i => e.Value.Contains(i))))
             .ToDictionary(e => e.Name, e => e.Value)
             ?? new Dictionary<string, string>();
 

@@ -10,7 +10,7 @@ namespace PodPeek.Domain.Services
         {
             var ingresses = (await _client.GetIngressesAsync(namespaceName)).ToList();
             var services = (await _client.GetServicesAsync(namespaceName)).ToList();
-            var pods = (await _client.GetPodsAsync(namespaceName, services.Select(s => s.Name))).ToList();
+            var pods = (await _client.GetPodsAsync(namespaceName, services.Select(s => s.Name), ingresses.Select(i => i.Name))).ToList();
 
             var nodes = new List<Node>();
             var edges = new List<Edge>();

@@ -9,23 +9,32 @@ namespace PodPeek.KubeClient
         private Kubernetes _client => new Kubernetes(_config);
         private KubernetesClientConfiguration _config => KubernetesClientConfiguration.InClusterConfig();
 
-        public async Task<IEnumerable<Pod>> GetPodsAsync(string namespaceName, IEnumerable<string>? serviceNames = null)
+        public async Task<IEnumerable<Pod>> GetPodsAsync(string namespaceName, IEnumerable<string>? serviceNames = null, IEnumerable<string>? ingressHosts = null)
         {
             var podList = await _client.ListNamespacedPodAsync(namespaceName);
 
             // Safely get services if not provided
             if (serviceNames == null)
             {
-                var services = await GetServicesAsync(namespaceName);
+                var services = await GetServicesAsync(namespaceName) ?? Enumerable.Empty<Service>();
                 serviceNames = services.Select(s => s.Name).ToList();
             }
+
+            if (serviceNames == null)
+            {
+                var ingresses = await GetIngressesAsync(namespaceName) ?? Enumerable.Empty<Ingress>();
+                ingressHosts = ingresses.SelectMany(i => i.Hosts);
+            }
+
+            serviceNames ??= Enumerable.Empty<string>();
+            ingressHosts ??= Enumerable.Empty<string>();
 
             if (!podList.Items.Any())
             {
                 return Enumerable.Empty<Pod>();
             }
 
-            var tasks = podList.Items.Select(p => Task.Run(() => PodMapper.Map(p, serviceNames)));
+            var tasks = podList.Items.Select(p => Task.Run(() => PodMapper.Map(p, serviceNames, ingressHosts)));
             var pods = await Task.WhenAll(tasks);
 
             return pods;
