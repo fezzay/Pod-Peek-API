@@ -1,5 +1,6 @@
 ﻿using PodPeek.Domain.Interfaces;
 using PodPeek.Domain.Models.Graph;
+using System.Linq;
 
 namespace PodPeek.Domain.Services
 {
@@ -91,7 +92,7 @@ namespace PodPeek.Domain.Services
                 }
             }
 
-            // Service -> Pod (via env vars)
+            // Service OR ingress -> Pod (via env vars)
             foreach (var pod in pods)
             {
                 var podNode = nodes.FirstOrDefault(n => n.Data == pod);
@@ -124,6 +125,26 @@ namespace PodPeek.Domain.Services
                                     TargetHandle = $"{container.Name}-env-{env.Key}"
                                 });
                             }
+                        }
+
+                        var ing = ingresses.FirstOrDefault(i =>
+                            i.Hosts.Any(h =>
+                                env.Value.Contains(h, StringComparison.OrdinalIgnoreCase)));
+
+                        if (ing != null)
+                        {
+                            var ingNode = nodes.FirstOrDefault(n => n.Data == ing);
+                            if (ingNode == null) continue;
+
+                            var matchedHost = ing.Hosts.FirstOrDefault(h => env.Value.Contains(h, StringComparison.OrdinalIgnoreCase));
+
+                            edges.Add(new Edge
+                            {
+                                Source = ingNode.Id,
+                                Target = podNode.Id,
+                                SourceHandle = $"ingress-{matchedHost}",
+                                TargetHandle = $"{container.Name}-env-{env.Key}"
+                            });
                         }
                     }
                 }

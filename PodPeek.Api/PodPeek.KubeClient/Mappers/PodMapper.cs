@@ -25,7 +25,7 @@ public static class PodMapper
         };
     }
 
-    private static Container MapContainer(V1Container v1Container, IEnumerable<string> servicesInNamespace)
+    private static Container MapContainer(V1Container v1Container, IEnumerable<string> servicesInNamespace, IEnumerable<string> ingressInNamespace)
     {
         var ports = v1Container.Ports?.Select(p => new Port
         {
@@ -36,7 +36,7 @@ public static class PodMapper
         var mounts = v1Container.VolumeMounts?.Select(vm => vm.MountPath) ?? Enumerable.Empty<string>();
 
         var envVars = v1Container.Env?
-            .Where(e => !string.IsNullOrEmpty(e.Value) && servicesInNamespace.Any(s => e.Value.Contains(s)))
+            .Where(e => !string.IsNullOrEmpty(e.Value) && (servicesInNamespace.Any(s => e.Value.Contains(s)) || ingressInNamespace.Any(i => e.Value.Contains(i))))
             .ToDictionary(e => e.Name, e => e.Value)
             ?? new Dictionary<string, string>();
 
